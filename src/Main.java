@@ -18,7 +18,7 @@ public class Main {
         actorList.add(actor3);
         actorList.add(actor4);
 
-        FeatureFilm film1 = new FeatureFilm("Fast and Furious", actors, 13000000, 80);
+        FeatureFilm film1 = new FeatureFilm("Fast and Furious", actors, 13000000, (byte)8);
         TvSeries tvSeries = new TvSeries("Orphan black", actorList, 12500, 35, 4);
 
         System.out.println("The actor before acting in another film -> film count: " + actor1.getActedFilmCount());
