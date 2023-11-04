@@ -3,23 +3,23 @@ import java.util.List;
 
 public class FeatureFilm extends Film {
 
-    private int duration;
+    private byte duration;
 
     FeatureFilm() {
         super();
         this.duration = 100;
     }
 
-    FeatureFilm(String title, List<Actor> actors, double budget, int duration) {
+    FeatureFilm(String title, List<Actor> actors, double budget, byte duration) {
         super(title, actors, budget);
         this.duration = duration;
     }
 
-    public int getDuration() {
+    public byte getDuration() {
         return duration;
     }
 
-    public void setDuration(int duration) {
+    public void setDuration(byte duration) {
         this.duration = duration;
     }
 
