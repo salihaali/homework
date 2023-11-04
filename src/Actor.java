@@ -5,13 +5,7 @@ public class Actor implements Popularable {
     private byte popularityRatio;
     private int actedFilmCount;
 
-    Actor() {
-        this.name = "John Doe";
-        this.age = 18;
-        this.gender = "male";
-        this.popularityRatio = 1;
-        this.actedFilmCount = 1;
-    }
+
 
     Actor(String name, int age, String gender, byte popularityRatio, int actedFilmCount) {
         this.name = name;
